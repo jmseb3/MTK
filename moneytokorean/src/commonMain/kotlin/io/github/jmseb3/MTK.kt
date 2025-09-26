@@ -110,7 +110,6 @@ object MTK {
             }
         }
 
-        print("<<$parts")
         val joined = if (useSpacing) parts.joinToString(" ") else parts.joinToString("")
 
         return buildString {
