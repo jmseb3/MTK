@@ -69,7 +69,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.wonddak.mtk"
+    namespace = "com.github.jmseb3"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
